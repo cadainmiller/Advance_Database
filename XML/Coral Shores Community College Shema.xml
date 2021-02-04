@@ -1,0 +1,105 @@
+<!-- XML SCHEMA  -->
+
+<?xml version = "1.0" encoding = "UTF-8"?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+   <xs:element name = "books">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name = "book_id" type = "xs:int" />
+            <xs:element name = "isbn" type = "xs:string" />
+            <xs:element name = "title" type = "xs:string" />
+            <xs:element name = "subject_area" type = "xs:string" />
+            <xs:element name = "phone" type = "xs:string" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>
+
+
+
+<?xml version = "1.0" encoding = "UTF-8"?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+   <xs:element name = "addresses">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name = "address_id" type = "xs:int" />
+            <xs:element name = "address1" type = "xs:string" />
+            <xs:element name = "address2" type = "xs:string" />
+            <xs:element name = "city" type = "xs:string" />
+            <xs:element name = "state" type = "xs:string" />
+            <xs:element name = "country" type = "xs:string" />
+            <xs:element name = "postalCode" type = "xs:int" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>
+
+
+
+
+<?xml version = "1.0" encoding = "UTF-8"?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+   <xs:element name = "user_types">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name = "user_type_id" type = "xs:int" />
+            <xs:element name = "position" type = "xs:string" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>
+
+
+<?xml version = "1.0" encoding = "UTF-8"?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+   <xs:element name = "campuses">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name = "campus_id" type = "xs:int" />
+            <xs:element name = "camp_name" type = "xs:string" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>
+
+
+
+<?xml version = "1.0" encoding = "UTF-8"?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+   <xs:element name = "users">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name = "user_id" type = "xs:int" />
+            <xs:element name = "first_name" type = "xs:string" />
+            <xs:element name = "last_name" type = "xs:string" />
+            <xs:element name = "dob" type = "xs:string" />
+            <xs:element name = "address_id" type = "xs:int" />
+            <xs:element name = "email" type = "xs:string" />
+            <xs:element name = "phone" type = "xs:string" />
+            <xs:element name = "photo" type = "xs:string" />
+            <xs:element name = "user_type_id" type = "xs:int" />
+            <xs:element name = "campus_id" type = "xs:int" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>
+
+
+
+<?xml version = "1.0" encoding = "UTF-8"?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+   <xs:element name = "rented_books">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name = "rent_id" type = "xs:int" />
+            <xs:element name = "book_id" type = "xs:int" />
+            <xs:element name = "rented_by_id" type = "xs:int" />
+            <xs:element name = "issued_by_id" type = "xs:int" />
+            <xs:element name = "date_rented" type = "xs:string" />
+            <xs:element name = "due_date" type = "xs:string" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>
+
+

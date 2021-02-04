@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book>
+        <book_id>2365</book_id>
+        <isbn>1 86197 271-7</isbn>
+        <title>Follow You Home</title>
+        <subject_area>General Knowlage</subject_area>
+        <author>Mark Edwards</author>
+    </book>
+</books>
+
+
+<addresses>
+    <address>
+        <address_id>0254</address_id>
+        <address1>3253  Olive Street</address1>
+        <address2></address2>
+        <city>Toledo</city>
+        <state>OH</state>
+        <country>US</country>
+        <postalCode>43602</postalCode>
+    </address>
+</addresses>
+
+<user_types>
+    <user_type>
+        <user_type_id>551</user_type_id>
+        <position>Head Librarian</position>
+    </user_type>
+
+    <user_type>
+        <user_type_id>552</user_type_id>
+        <position>Assistant Librarian</position>
+    </user_type>
+
+    <user_type>
+        <user_type_id>553</user_type_id>
+        <position>Reference Librarian</position>
+    </user_type>
+
+    <user_type>
+        <user_type_id>554</user_type_id>
+        <position>Check-Out Staff</position>
+    </user_type>
+    
+    <user_type>
+        <user_type_id>555</user_type_id>
+        <position>Library Assistant</position>
+    </user_type>
+
+    <user_type>
+        <user_type_id>556</user_type_id>
+        <position>Student</position>
+    </user_type>
+<user_types>
+
+
+<campuses>
+    <campus>
+        <campus_id>31</campus_id>
+        <camp_name>Shoreline Campus</camp_name>
+    </campus>
+
+    <campus>
+        <campus_id>32</campus_id>
+        <camp_name>Shorecove Campus</camp_name>
+    </campus>
+</campuses>
+
+<users>
+    <user>
+        <user_id>1245455456</user_id>
+        <first_name>Dummy</first_name>
+        <last_name>User</last_name>
+        <dob>2/6/1985</dob>
+        <address_id>0254</address_id>
+        <email>dummy_user@test.com</email>
+        <phone>12464756</phone>
+        <photo>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4
+        //8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==</photo>
+        <user_type_id>556</user_type_id>
+        <campus_id>31</campus_id>
+    </user>
+</users>
+
+<rented_books> 
+    <rented_book> 
+        <rent_id>9651</rent_id>
+        <book_id>2365</book_id>
+        <rented_by_id>1245455456</rented_by_id>
+        <issued_by_id>6565546456</issued_by_id>
+        <date_rented>2/3/2020</date_rented>
+        <due_date>2/10/2020</due_date>
+    </rented_book>
+</rented_books>
